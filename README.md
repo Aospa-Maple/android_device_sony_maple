@@ -1,5 +1,16 @@
 # Device tree for Maple (Xperia XZ Premium)
 
+## For repo sync
+Initialize the PA repo,
+go inside the build dir and,
+```
+cd .repo
+mkdir local_manifests && cd local_manifests
+touch roomservice.xml
+```
+Go to the file and paste code from this link:
+https://gist.github.com/shank03/8886acceac1a6321cd63530fbd56b86d
+
 ## IMPORTANT
 ### If you are building for dual sim then :
 Change this in lineage_maple.mk
